@@ -1,0 +1,34 @@
+header {
+    border: orange dashed 2px;
+    text-align: center;
+}
+
+main {
+    border: black solid 2px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+}
+
+footer {
+    border: orange dashed 2px;
+    text-align: center;
+}
+
+fieldset {
+    margin: 50px;
+    width: 200px;
+    height: 600px;
+}
+
+.flex-container {
+    border: blue dotted 2px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
